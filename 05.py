@@ -17,8 +17,9 @@ zcode = input("tape your zip code: ")
 
  Finaly we have two conditions 
 """
+_zcode = zcode.strip()
 
-if zcode.isdigit() and len(zcode) == 5 :
+if _zcode.isdigit() and len(_zcode) == 5 :
     print("Good👍 ! your entry is valid")
 else:
     print("please enter a valid entry")
