@@ -12,7 +12,7 @@ To resolve this problem we two approach
 num1 = input("enter your number1 ?  ")
 num2 = input("enter your number2 ?  ")
 
-# remove . , et - in different number before you test it if it's digit
+# remove . , and - in different number before you test it if it's digit
 a1 = num1.replace(".","").replace(",","").replace("-","")
 b1 = num2.replace(".","").replace(",","").replace("-","")
 
@@ -24,7 +24,7 @@ if a1.isdigit() and b1.isdigit() :
     print(f"{num1} + {num2} = {_sum}")
 
 else:
-    
+
     print("Please enter the number instead the string !!")
 
 ###### In code review we can improve it 😀
