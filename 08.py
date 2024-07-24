@@ -12,7 +12,7 @@ a1 = kg_value.replace(".","").replace(",","").replace("-","")
 if a1.isdigit():
 
    pouds = 2.20462 * float(kg_value)
-   # i add :.3f just to format the result to 3 digit after the point 
+   # i add :.3f just to format the result to add 3 digit after the point in decimal number
    print(f"The convert is : {kg_value}kgs = {pouds:.3f} pounds")
 else:
     print("Please enter a numeric value !!!!")
