@@ -1,7 +1,7 @@
 # 6- Write a script that will take two integers and give the sum of those two int.
 
 """
-To resolve this problem we two approach
+To resolve this problem we have two approaches
  1- simple approach 
  2- resilent approach (find it in file 06.2.py)
 

@@ -1,10 +1,9 @@
 # 6- Write a script that will take two integers and give the sum of those two int.
 
 """
-To resolve this problem we two approach
- 1- simple approach 
+
  2- resilent approach
- imagine if 
+
 """
 
 # 2- resilent approach
