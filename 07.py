@@ -6,6 +6,7 @@ age = input("Please enter your age ?  ")
 
 # remove any space
 _age = age.strip()
+
 # the once condition to vote
 if _age.isdigit() and int(_age) >= 18 :
 
