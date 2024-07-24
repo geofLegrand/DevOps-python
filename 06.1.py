@@ -16,7 +16,7 @@ _sum = num1 + num2
 print(_sum)
 
 """ 
-so imagine if the person who you gave your script entry the string caracter instead the number ?
+now imagine if the person who you gave your script enter a string caracter instead a number ?
 we gonna have the error like  ValueError: invalid literal for int() with base 10: 'f'.
-So to fix or give more resilence to your script follow second approach
+So to fix or give more resilence to our script follow  second approach
 """
