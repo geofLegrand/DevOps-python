@@ -4,17 +4,19 @@
 
 age = input("Please enter your age ?  ")
 
+# remove any space
+_age = age.strip()
 # the once condition to vote
-if age.isdigit() and int(age) >= 18 :
+if _age.isdigit() and int(_age) >= 18 :
 
     print("You are eligible to vote 😇")
 
 # if the given value is not numeric number
-elif  not age.isdigit(): 
+elif  not _age.isdigit(): 
 
     print("Please enter a numeric value !!!!")
 
 # otherwise 
 else:
-    
+
     print("Oupsss 🫣! You are not eligible to vote")
